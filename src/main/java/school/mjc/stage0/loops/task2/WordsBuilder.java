@@ -1,13 +1,8 @@
 package school.mjc.stage0.loops.task2;
 
 public class WordsBuilder {
-    public void buildPhrase(char[] chars) {
-        int i = 0;
-        String result = "";
-        while (i < chars.length) {
-            result = result + chars[i];
-            i++;
-        }
+    public void buildPhrase(char... chars) {
+        System.out.println(chars);
 
     }
 }
