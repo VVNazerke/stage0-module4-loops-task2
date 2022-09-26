@@ -4,8 +4,8 @@ public class FactorialNumbers {
     public void printFactorialRow(int printToInclusive) {
     int i = 1, result=1;
     while (i<=printToInclusive){
-        result = result *i;
         System.out.println(result);
+        result = result *i;
         i++;
     }
     }
